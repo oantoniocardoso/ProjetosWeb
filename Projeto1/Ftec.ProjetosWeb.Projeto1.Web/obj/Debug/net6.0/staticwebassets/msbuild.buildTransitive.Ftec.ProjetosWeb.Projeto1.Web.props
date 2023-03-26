@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Ftec.ProjetosWeb.Projeto1.Web.props" />
+</Project>
