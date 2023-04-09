@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<h1>Listagem de Produtos</h1>
+
+<p><a href="\produto\inserir">Novo Produto</a></p>
+
+<table>
+    <tr>
+        <th>Descrição</th>
+        <th>Quantidade Estoque</th>
+        <th>Preço</th>
+        <th>Unidade Medida</th>
+        <th>Ações</th>
+    </tr>
+    @{
+        foreach(var item in ViewBag.produtos)
+        {
+            <tr>
+                <td>@item.Descricao</td>
+                <td>@item.QuantidadeEstoque</td>
+                <td>@item.Preco</td>
+                <td>@item.UnidadeMedida</td>
+                <td><a href="/produto/excluir/@item.Id">Excluir</a> <a href="/produto/editar/@item.Id">Editar</a></td>
+            </tr> 
+        }
+    }
+
+</table>
