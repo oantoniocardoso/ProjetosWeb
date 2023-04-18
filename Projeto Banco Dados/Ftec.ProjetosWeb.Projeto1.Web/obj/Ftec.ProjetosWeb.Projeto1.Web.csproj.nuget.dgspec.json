@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Web\\Ftec.ProjetosWeb.Projeto1.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Aplicacao\\Ftec.ProjetosWeb.Projeto1.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Aplicacao\\Ftec.ProjetosWeb.Projeto1.Aplicacao.csproj",
+        "projectName": "Ftec.ProjetosWeb.Projeto1.Aplicacao",
+        "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Aplicacao\\Ftec.ProjetosWeb.Projeto1.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj": {
+                "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj"
+              },
+              "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Persistencia\\Ftec.ProjetosWeb.Projeto1.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Persistencia\\Ftec.ProjetosWeb.Projeto1.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj",
+        "projectName": "Ftec.ProjetosWeb.Projeto1.Dominio",
+        "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Persistencia\\Ftec.ProjetosWeb.Projeto1.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Persistencia\\Ftec.ProjetosWeb.Projeto1.Persistencia.csproj",
+        "projectName": "Ftec.ProjetosWeb.Projeto1.Persistencia",
+        "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Persistencia\\Ftec.ProjetosWeb.Projeto1.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj": {
+                "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Web\\Ftec.ProjetosWeb.Projeto1.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Web\\Ftec.ProjetosWeb.Projeto1.Web.csproj",
+        "projectName": "Ftec.ProjetosWeb.Projeto1.Web",
+        "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Web\\Ftec.ProjetosWeb.Projeto1.Web.csproj",
+        "packagesPath": "C:\\Users\\anton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\anton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Aplicacao\\Ftec.ProjetosWeb.Projeto1.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Aplicacao\\Ftec.ProjetosWeb.Projeto1.Aplicacao.csproj"
+              },
+              "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj": {
+                "projectPath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Dominio\\Ftec.ProjetosWeb.Projeto1.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "miVwBaDumdrxeK++CT230z8tT/w/d3e/1vJNksReR3MklIeG6F6zJPvgFE55Wtrp6bCbkn723vKoW1TdH2x+/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anton\\Documents\\UNIFTEC\\2023-1\\3º Projeto de Sistemas para Web\\Aula 6\\Banco Dados\\Ftec.ProjetosWeb.Projeto1.Web\\Ftec.ProjetosWeb.Projeto1.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\npgsql\\7.0.2\\npgsql.7.0.2.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

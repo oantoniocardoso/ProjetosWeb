@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<ProdutoModel>
+
+<h1>Listagem de Produtos</h1>
+
+<p><a href="\produto\inserir">Novo Produto</a></p>
+
+<table>
+    <tr>
+        <th>Descrição</th>
+        <th>Quantidade Estoque</th>
+        <th>Preço</th>
+        <th>Unidade Medida</th>
+        <th>Ações</th>
+        <th>Decrementar Estoque</th>
+    </tr>
+    @{
+        foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Descricao</td>
+                <td id="qtd@(item.Id)">@item.QuantidadeEstoque</td>
+                <td>@item.Preco</td>
+                <td>@item.UnidadeMedida</td>
+                <td>@Html.ActionLink("Excluir","excluir",new {id=item.Id}) @Html.ActionLink("Editar","editar", new {id = @item.Id})</td>
+                <td><a href="#" onclick="AtualizarEstoque('@item.Id')">Decrementar Estoque</a></td>
+            </tr> 
+        }
+    }
+
+</table>
+
+@section Scripts{
+    <script>
+        function AtualizarEstoque(id){
+            var url = "produto/DecrementarEstoque";
+            var parametros = {id : id};
+            $.post(url, parametros, CallBackAtualizaEstoque);
+
+            ///produto/DecrementarEstoque/item.Id
+        }
+
+        function CallBackAtualizaEstoque(retorno){
+            var elemento = $("#qtd" + retorno.id);
+            elemento.html(retorno.quantidadeEstoque);
+        }
+    </script>
+}
