@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor httpContextAccessor;
+
+
+<h1>Cadastro de novo produto</h1>
+<h1>Conteudo da Sessao:@httpContextAccessor.HttpContext.Session.GetString("usuario")</h1>
+<form method="post" action="\produto\gravar">
+
+
+    <label for="descricao">Descrição</label>
+    <input type="text" name="produto.Descricao" id="descricao" />
+    @Html.ValidationMessage("produto.Descricao")
+    @Html.ValidationMessage("errocusto")
+    <br />
+    <label for="quantidadeestoque">Quantidade Estoque</label>
+    <input type="text" name="produto.QuantidadeEstoque" id="quantidadeestoque" />
+    @Html.ValidationMessage("produto.QuantidadeEstoque")
+    <br />
+    <label for="preco">Preço</label>
+    <input type="text" name="produto.Preco" id="preco" />
+     <br />
+    <label for="unidademedida">Unidade Medida</label>
+    <input type="text" name="produto.UnidadeMedida" id="unidademedida" />
+     <br />
+    <label for="categoriaid">Categoria</label>
+    <select id="categoriaid" name="produto.CategoriaId">
+        @{
+            foreach (var categoria in ViewBag.categorias)
+            {
+                <option value="@categoria.Id">@categoria.Descricao</option>
+            }
+        }
+    </select>
+    <br />
+    <input type="submit" value="Gravar Produto" />
+</form>
+
+@section Scripts{
+    <script src="#"></script>
+}
+
+@section rodape{
+    <footer>Rodape</footer>
+}
