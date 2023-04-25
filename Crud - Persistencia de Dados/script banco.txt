@@ -1,0 +1,8 @@
+CREATE TABLE public.produto (
+	id uuid NULL,
+	categoriaid uuid NULL,
+	descricao varchar NULL,
+	quantidadeestoque varchar NULL,
+	preco money NULL,
+	unidademedida varchar NULL
+);
